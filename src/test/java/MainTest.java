@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 public class MainTest {
 
     @Test
-    @DisplayName("Stack ile palindrom saayılar doğru bulunabiliyor mu ?")
+    @DisplayName("Stack ile palindrom sayılar doğru bulunabiliyor mu ?")
     public void testPalindrome(){
         assertEquals(Main.checkForPalindrome("I did, did I?"), true);
         assertEquals(Main.checkForPalindrome("Racecar"), true);
